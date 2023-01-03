@@ -1,0 +1,31 @@
+
+app:
+  name: "elasticsearch-0.0.1 service"
+
+index-name:
+  person: product_index
+
+
+elasticsearch:
+  url: "192.168.18.205:9200"
+  host: "192.168.18.205"
+  port: 9200
+  username: "elastic"
+  password: "RyuF3TFzo"
+
+
+
+minio:
+  bucket:
+    name: example-product-image
+  default:
+    folder: /
+  server:
+    port: 9000
+  access:
+    name: "mapledev"
+    secret: "RyuF3TFzo"
+  #    name: "qaVFT0yXtbQQN80G"
+  #    secret: "vcsUrncqNe085FvfjjjdEMPmIes3VvRh"
+  url: "http://192.168.18.207:9000"
+
